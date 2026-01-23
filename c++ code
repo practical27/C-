@@ -1,0 +1,145 @@
+16
+Prachical No.6.
+Aim:- write a ctt program to interchange how number number using a user-defined function void swap()
+#include <iostream.h>
+#include <conio. 177
+void main Swap (int &G, int&b).
+{
+Int tempi
+temp = a;
+a=b;
+b = temp;
+void main()
+Clrscr();
+In num í; num2;
+cout <<" Enter first number; ";
+cin >> num 1;
+Court 4" Enter second number;";
+cin >> num 2;
+cout <<"In Before swapping : \n";
+cout cet num1 = "<<num /<"\n";
+cout<<" num2 = "<<numz << "\n";
+Swap (numi, num2);
+Cout << "In after swapping : \n";
+Cout くぐ num1 = "<<num 1 << "\n";
+cout <<" num2 = "<<numz <<<"\n";
+getch ();
+}
+18
+practical No.7.
+Aim: of write a c++ Program to initialize an Giray and verify whether a given number ú of 10 integers. present in the array or not using linear Search.
+#include <iostream.h>
+#include <conio.h>
+void main o
+2
+(Irs(re);
+3nt air [10] = {+$23,45,12,78, 34,89,56, 10,67,903;
+Int num 1, found = 0;
+cout <<"Enter a number to Search: ";
+cin >> num;
+for (1= 0;1<<10;
+i++]
+  }
+If (arr[1] == num)
+  }
+found = 1;
+Break;
+  }
+If (found == 1)
+{
+cout <<" \n the number" <<<num <<" is found in the array";
+}
+else
+}
+cout<<"\n the number "<<num<<"is not found in the array";
+}
+getch();
+}
+20
+practical No. 8.
+Aim: Write a
+Program in c++ to petorm function ourloding using two class.
+Code:-
+#include <iostream.h>
+#include <conio.h>
+Class first
+public:
+void show (inta)
+  {
+cout <<" First Class- Number: "<<a<<"\n";
+}
+void show (int a, int b)
+{
+Cout << "first class- sum: "a+b<<"\n";
+}
+};
+class Second
+{
+public:
+void display (char name [J]
+{
+Cout <<" Second Class- Name: "<<name" age;
+"< age <<"\n";
+21
+void main()
+{
+clrscr();
+First f;
+Seconds;
+F-show (10);
+F.show (5115)
+s. display ("John ");
+S. display ("John", 18;
+getch();
+}
+22
+Practicalog.
+Aim:-write a ctt program to find the sum of first low numbers using a control Structure.
+Code!-
+#include <iostream.h>
+#include <conio.h>
+void main()
+Clrscr();
+Int 1, sum=0;
+for (= 1; 1<=100; i++)
+  {
+Sum = Sumt1;
+}
+cout 22" The sum of first lou natural numbers is:
+"<<sum;
+Getch ();
+}
+23
+practical: 10.
+Aim: write a ctt program to convert temperature.. between celsius and fahrenheit.
+Code:-
+#include <iostream.h>
+#include <conio.h>
+Void main()
+Ets.clrscr();
+Float Celsius, Fahrenheit;
+Int choice;
+Cout <<" Temperature conversion menu: \n";
+Cout くぐ1. Celsius to Fahrenheit In";
+cout <<<" 2. fahrenheit to cette celsius\n";
+Cout <<"Enter your choice (1 or 2): ";
+Cin >> choice;
+If (choice==1)
+{
+Cout <<"Enter temperature in celsius: ";
+cin >> Celsius;
+Fahrenheit = (ecelsius *9/5)+32;
+cout <<"In temperature in fahrentfit = " << fahrentieit;
+}
+else if (Choice ==2)
+{
+cout << "Enter temperature in Fahrenheit: ";
+cin>> fahrenheit;
+Celsius = (fahrenheit -32*5/9;
+cout <<"In Temperature in Celsius = "<<< celsius;
+}
+else
+Cout <<"Invalid choice!";
+}
+Getch();
+}
