@@ -1,0 +1,130 @@
+08
+Practical No1
+Aim: To write a simple ctt program to Find the maximum of two numbers. Control Structure:. using the if .... else.
+#include <iostream.h>
+#include <conio.h>.
+void main()
+int a,b;
+Cout <<"Enter two number: "B;
+CIN >> a>>b;
+if (a>b)
+cout <<"maximum number is: "くく;
+else
+cout <<"maximum number is: " <<b;
+}
+09
+Practical No.2.
+Aim write a ctt program to array of 5 integers. element using a pointer. initialization initialize an and calculate the sum of
+Code:-
+#include <iostream.h>
+#include <conio.h>
+Void main()
+clrscr();
+int arr [5] = {10,20,30,40,503;
+int* ptr;
+int sum = 0,1;
+ptr = arr;
+for (1=0; 15; i++) {
+ Sum = sum +* (ptr ti);
+ Cout <<"Sum of arry elements = "<<sum;
+Getch ();
+practical No 3.
+a ctt program to Aim. Write and sort inte gores order initialize an array of lo the array in asending or decending using the Bubble Sort metnad. Display the Original and sorted list
+Code:-
+#include <iostream.h>
+#include <conio.h>
+void main()
+{
+clrscr();
+int i.j.t, Sort [10];
+cout <<" enter the array element";
+for(i=0;i<10;i++)
+{
+cin >> Sort [i];
+{
+for (i=usi<10;i++]
+{
+for (j=10; 170;i--)
+{
+if (Sort [j-1]> Sort [j]]
+{
+t = Sort [j-1];
+Sort CJ-1]= Sot[J];
+Sort [j]=1;
+}
+}
+}
+cout<<"sorted array is "<<endl;
+for ( i=0;i<10;i++)
+{
+cout<<sort[i]<<endl;
+}
+getch();
+}
+12
+Practical-4.
+Aim-a element belongs ctt program to verify whether a given to a sorted array using the binary Search technique.
+#include <iostream.h>
+#include <conio.h>
+void main ()
+clrscr();
+int arr [10] = {5,10,15,20, 25, 30, 35, 40, 45, 50}
+int low=0 high = 9, mid , num, found = 0;
+cout <<" Enter number to search: '";
+cin >> num;
+while (low <= high)
+{
+Mid = Clow at high)/2;
+if (arr [mid] == num)
+{
+found = 1;
+Break;
+}
+else if (num <arr [mid])
+{
+high = mid-1;
+}
+else
+{
+low = mid + 1;
+}
+}
+if (found == 1)
+cout << "\n the number array!"; "<<num << " is found in the arry ";
+}
+else
+{
+cout <<"\n the number "<<num <<" is Not Found in the array";
+}
+Getch();
+}
+14
+practical No. 5.
+Aim-write a ctt program to interchange (swapshwo Numbers using a function with call by value.
+#include <iostream.h>
+#include <conio.h>
+Void Swap Cinta, int b)
+int temp;
+temp = a;
+a = b;
+b = temp;
+cout <<"In inside swap function (after swapping); \n";
+cout <<"a="<aくぐ"In";
+cout <<" = " <<b<<"\n";
+Void main()
+{
+clrscr()
+Int num1, num2;
+cout <<" Enter first number:9";
+cin >> num 15
+cout <<" Enter second number: ";
+cin >> num2;
+Cout <<"In Before calling Swap function:\n";
+Cout <<"num 1 = "<<num 1<<"\n";
+cout <<" num2 = "<<num 2<<"\n";
+swap (num1, num2);
+cout <<"In after calling swap function: \n";
+Cout くぐ num1 = "<<num 1 << "\n";
+cout <<" num2 = "<<numz <<<"\n";
+getch ();
+}
