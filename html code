@@ -1,0 +1,155 @@
+A
+practical No 1
+Aim
+create a simple HTML webpage of the following topic College profile information about Computer Course The page must have an apporopriate title, background colour. And any at the centre paragraph must Got contain the text in the term. Of Alignment and Font Size.
+Code:-
+<HTML>
+<HEAD>
+<TITTLE> COLLEGE PROFILE </TITTLE>
+</HEAD>
+<BODY BGCOLOR="GREEN"> <CENTER> <V><B> M.D COLLEGE
+PROFILE </B> </U> </CENTER>
+<BR>
+<BR>
+<P ALTGH="CENTER"><FONT SIZE="15"> THIS COLLEGE
+PROVIDE COMPUTER SCIENCE COURSES FOR 11TH, 127H,
+BSC, cs, msc. (S</FONT> </P>
+<P> PAPER 1 SOFTWARE </P>
+<BR>
+<BR>
+<P> PAPER 2 HARDWARE </P>
+<186DY>
+</HTML>,
+06
+prachical No.3.
+Aim To create a simple HTML webpage using <01>, <01>, and <11> tags with different type attributes to display. a refrestiment list, and apply a pink background color to the webpage.
+Code:-
+<HTML>
+<HEAD>
+<title> Refreshment List </title>
+</head>
+<body Bgcolor = "Pink">
+<h2> Refreshment List </h2>
+<ol type = "1">
+<li> Hot Drinks.
+CUL type="disc">
+<li> Tea </li>
+<li> coffee </li>
+<li>
+<li> cold Drinks.
+<ul type. = "Circle">
+<li> Juice </li>
+<li> cold coffee </li>
+</i>
+<^> Snacks
+<ui/bype =" Square ">
+<li> Sandwich </li>
+<li> Biscuits </li>
+</li>
+</body>
+</html>
+07
+practical: 4.
+Aim: To create a simple HTML webpage that links One.. web page to another using the <a> tag.
+Code for page 1. (index. html).
+<html>
+<head> <title> Home page 1 title>
+</head>
+<body bgcolor="yellow">.
+<h1> welcome to my website </h1>
+<p> click the link below to go to the next page : <1p>
+<a href="page. 2.html" > Go to page 2<19>
+</body>
+</html>
+Code for page 2 (page 2. #html>
+<HEM>>
+<head>
+<title> Page 2 </title>
+<head>
+<body By color="" lightgreen">
+<h1> This is page 2 </h1>.
+<p> you came here from the Home page <ID>
+<a href="index.html"> Back to Home <197
+</body>
+</html>
+*
+03
+practical No.2.
+Aim: Creat Simple HTML Web page of the following topic. Student result. Creat a table at Centre with maxmium. 5 colums and 8 rows. the page must have an appropriate tittle Callspan and row span the table must consists of following content. Such as subject name, marks, Total marks perecentage.
+Code:-
+<HTML>
+<HEAD>
+<TITLE> STUDENT MARKSHEET</TITLE>
+<HEAD>
+<BODY>
+<CENTER><B><U><FONT SIZE="20"> STUDENT MARKSHEET
+</FONT></U></B> </CENTER>
+<BR>
+<CENTER><B><U><FONT SIZE="15" COLOR="RED"> DEPARTMENT
+CS </FONT></U></B></CENTER>
+<BR>
+<CENTER> <TABLE BORDER="1"> </CENTER>
+<TR>
+<TH COLSPAN="5"> MARKSHEET </TH>
+<ITR>
+<TR>
+<TH> SUBTECT </TH>
+<TH> MAX. MARKS </TH>
+<TH> THEORY </TH>
+<TH> PA PRACTICAL </TH>
+
+<TH> MARKS OBTANINED </TH>
+<ITR>
+<TR>
+<TH> PHYSICS </TH>
+<TD> 100</TD>
+<TD> 50 </TD>
+<TD>40</TD>
+<70>90</TD>
+</TR>
+<TR>
+<TH> CHEMISTRY </TH>
+<70> 100 </TD>
+<TD> 50 </TD>
+<TD> 40 </TD>
+<TD> 90 </TD>
+</TR>
+<TR>
+<TH> ENGLISH </TH>
+<TD> 100</TD>
+<TD> 50</TD>
+<TD> 40 </TD>
+<TD> 90 </TD>
+<ITR>
+<TR>
+<TH> MATHEMATICS </TH>
+<70> 100 </TD>
+<TD>50</TD>
+<TD> 40/td>
+<TD>50</TD>
+</TR>
+<TR>
+<TH> CS1 </TH>
+<70> 100 </td>
+<74> 50 <1Td>
+<7d> 40 </td>
+<td> 90 </td>
+TR
+<TH> CS2 </TH>
+<td> 100 </td>
+27d> 50 </td>
+<td> 40 <170>
+<id> 90 </td>
+<TR>
+<TH> tOTAL </TH>
+<td> 600 </td>
+<td COLspan="3"> <center> 540</center>
+<TR>
+<<H> percentage = </TH>
+<td colspan="4">90% </7d>
+<
+</Table >
+<Body>
+</HTML>
+<70> 90 </TD>
+  
