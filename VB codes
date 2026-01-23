@@ -1,0 +1,22 @@
+* Visual Basic practical-1*,
+Aim-
+Corite a program in visual Basic to finch sum of any lo number entered using do- while loup.
+Code:
+Dim a As Integer
+Dim B As Integers.
+Dim n As Integers.
+private such and Calculate Click C)
+a=1
+b=0
+n = val [+x+ Input - Test ]
+Do while a<=n
+5= b+a
+d= a+1
+loop
+test Output Text = Str (b)
+End Sub
+  
+ Private Sub cmd clear_ click C)
+text Input. Text = ' '
+text  output Text=' '
+End Sub
